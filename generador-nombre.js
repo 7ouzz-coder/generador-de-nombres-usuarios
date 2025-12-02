@@ -22,4 +22,6 @@ nombreCompletoElement.innerHTML= `Nombre completo: ${nombreCompleto}`;
 usuarioGeneradoElement.innerHTML= `Nombre de usuario generado: ${usuarioGenerado}`;
 
 // Mostrar resultados en consola
-console.log(`Tu nuevo nombre de usuario es: ${usuarioGenerado}`);
+console.log(`--- Este es tu nuevo nombre de usuario ---\n`);
+console.log(`${usuarioGenerado}`);
+console.log(`\nGracias por usar nuestro generador de nombres de usuario. ¡Hasta luego, ${nombreCompleto}!`);
